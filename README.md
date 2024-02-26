@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Aya's Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the project
+This is a personal portfolio website showcasing my skills, projects, and experience. 
+The portfolio is designed to provide an overview of my capabilities as a software engineer and to serve as a hub for potential employers and collaborators
 
-Currently, two official plugins are available:
+## Features
+- **Home Section:** A brief overview
+- **About Me Section:** Provide some information about my background
+- **Experience Section:** Hilights my experience and interns
+- **Skills Section**: Provides information about my software skills (Technologies)
+- **Education Section**: Provides information Collegeous education
+- **Project Section**: Showcases a selection of projects I've worked on.
+- **Contact me Section**: Offers a way for visitors to get in touch with me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- Reactjs
+- Vite for project Setup
+- TypeScript
+- Tailwind CSS
+- Netlify for deployment
 
-## Expanding the ESLint configuration
+## Project Structure
+- `src/components`: Contains React components for different sections of the portfolio.
+- `src/layouts`: Includes layout components used across the project.
+- `vite.config.js`: Configuration file for the Vite project.
+- `tailwind.config.js`: Configuration file for Tailwind CSS.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
+To run the project locally in our PC, Follow these steps
+- open our cmd (Command Prompt)
+- git init
+- git clone https://github.com/rifaiiaya2/Aya-sPortfolio.git
+- cd Aya-sPortfolio
+- npm install ( to install all the dependencies)
+- npm run dev
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Deployment
+The project is deployed using Netlify and can be access online by visiting these URL: https://65db349fc56064d98aba2d15--hilarious-hotteok-48519e.netlify.app/
